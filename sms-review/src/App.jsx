@@ -33,7 +33,7 @@ const handleBackButtonClick = () => {
       
       <div className="flex items-center w-full max-w-3xl p-8 mx-auto lg:px-12 lg:w-3/5">
         <div className="w-full">
-        <img src='./assets/logo-academe-sms.png' alt='academe-sms-logo' className='w-[100px] h-[30px]'/>
+        <img src='./src/assets/logo-academe-sms.png' alt='academe-sms-logo' className='w-[100px] h-[30px]'/>
           <h1 className="text-2xl font-semibold tracking-wider text-gray-800 capitalize dark:text-white mt-4" id='question'>
           <span>{currentQuestionIndex + 1}.)</span> {currentQuestion}
           </h1>
